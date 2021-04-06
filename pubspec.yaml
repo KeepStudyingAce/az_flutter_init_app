@@ -1,0 +1,160 @@
+name: flutter_fenxiao
+description: A new flutter module project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+#
+# This version is used _only_ for the Runner app, which is used if you just do
+# a `flutter run` or a `flutter make-host-app-editable`. It has no impact
+# on any other native host app that you embed your Flutter project into.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+   # 路由管理 https://pub.flutter-io.cn/packages/fluro
+  fluro: ^1.6.3
+  # # 二维码生成器 https://pub.flutter-io.cn/packages/qr_flutter
+  qr_flutter: ^3.2.0
+  # App状态管理（官方推荐） https://pub.flutter-io.cn/packages/provider
+  provider: ^4.3.1
+  # 多语言 https://pub.flutter-io.cn/packages/intl_utils
+  intl_utils: ^1.9.0
+  # 事件通知 https://pub.flutter-io.cn/packages/event_bus
+  event_bus: ^1.1.1
+  # 网络请求 https://pub.flutter-io.cn/packages/dio
+  dio: ^3.0.8
+  # 简易菊花加载框 https://pub.flutter-io.cn/packages/flutter_easyloading
+  flutter_easyloading: ^1.1.3
+  # json字符解析 https://pub.flutter-io.cn/packages/json_annotation
+  json_annotation: ^3.0.1
+  # 上拉加载下拉刷新 https://pub.flutter-io.cn/packages/pull_to_refresh
+  pull_to_refresh: 1.6.2
+  # webview插件 https://pub.dev/packages/webview_flutter
+  webview_flutter:  ^1.0.7
+  # 本地存储 https://pub.dev/packages/shared_preferences
+  shared_preferences: ^0.5.10
+  # 轮播图 https://pub.dev/packages/flutter_swiper
+  flutter_swiper: ^1.1.6
+  # 网络图片加载，支持错误图片和占位符 https://pub.dev/packages/cached_network_image
+  cached_network_image: ^2.2.0+1
+  # 多张图片选择器，不能选择视频，支持错误图片和占位符 https://pub.dev/packages/multi_image_picker
+  multi_image_picker: ^4.7.10
+  # 视频选择 https://pub.dev/packages/image_picker
+  image_picker: 0.6.2
+  # 提示弹框 https://pub.flutter-io.cn/packages/easy_alert
+  easy_alert: ^0.0.8
+  # 调用系统应用，打电话，发短信邮件等 https://pub.dev/packages/url_launcher
+  url_launcher: ^5.5.3
+  # 保存图片/文件到本地 https://pub.dev/packages/image_gallery_saver
+  image_gallery_saver: ^1.5.0
+
+  decimal: ">=0.3.1 <3.0.0"
+  #权限请求
+  permission_handler: ^4.1.0
+  # 闪烁动画 
+  shimmer: ^1.1.2
+
+
+  #高德地图官方插件
+#  amap_flutter_map: ^1.0.0
+#  amap_flutter_location: ^1.0.0
+#
+
+  amap_map_fluttify: 0.30.1
+  amap_location_fluttify: 0.20.0
+  amap_search_fluttify: 0.16.2
+
+  # 网络监听
+  connectivity: ^2.0.2
+
+  flutter_staggered_animations: "^0.1.2"
+
+  ##获取包信息
+  package_info: ^0.4.0+2
+
+  #时间格式化
+  date_format: ^1.0.8
+
+
+  lpinyin: ^1.1.1
+  azlistview: ^1.1.1
+
+  # 图片浏览，支持手势 https://pub.dev/packages/photo_view
+  photo_view: ^0.10.2
+
+  flutter_localizations:
+    sdk: flutter
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add Flutter specific assets to your application, add an assets section,
+  # like this:
+  # assets:
+  assets:
+    - lib/sources/fonts/
+    - lib/sources/images/
+    - lib/sources/images/2.0x/
+    - lib/sources/images/3.0x/
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add Flutter specific custom fonts to your application, add a fonts
+  # section here, in this "flutter" section. Each entry in this list should
+  # have a "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+
+  # This section identifies your Flutter project as a module meant for
+  # embedding in a native host app.  These identifiers should _not_ ordinarily
+  # be changed after generation - they are used to ensure that the tooling can
+  # maintain consistency when adding or modifying assets and plugins.
+  # They also do not have any bearing on your native host application's
+  # identifiers, which may be completely independent or the same as these.
+  module:
+    androidX: true
+    androidPackage: com.example.flutter_fenxiao
+    iosBundleIdentifier: com.example.flutterFenxiao

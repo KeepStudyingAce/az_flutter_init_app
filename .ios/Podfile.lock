@@ -1,0 +1,196 @@
+PODS:
+  - AMap3DMap-NO-IDFA (7.6.0):
+    - AMapFoundation-NO-IDFA (~> 1.6.3)
+  - amap_core_fluttify (0.0.1):
+    - AMapFoundation-NO-IDFA (= 1.6.4)
+    - Flutter
+    - foundation_fluttify
+  - amap_location_fluttify (0.0.1):
+    - amap_core_fluttify
+    - AMapLocation-NO-IDFA (= 2.6.7)
+    - Flutter
+    - foundation_fluttify
+  - amap_map_fluttify (0.0.1):
+    - AMap3DMap-NO-IDFA (= 7.6.0)
+    - amap_core_fluttify
+    - amap_location_fluttify
+    - amap_search_fluttify
+    - Flutter
+    - foundation_fluttify
+    - url_launcher
+  - amap_search_fluttify (0.0.1):
+    - amap_core_fluttify
+    - AMapSearch-NO-IDFA (= 7.7.0)
+    - Flutter
+    - foundation_fluttify
+  - AMapFoundation-NO-IDFA (1.6.4)
+  - AMapLocation-NO-IDFA (2.6.7):
+    - AMapFoundation-NO-IDFA (~> 1.6.4)
+  - AMapSearch-NO-IDFA (7.7.0):
+    - AMapFoundation-NO-IDFA (~> 1.6.4)
+  - BSGridCollectionViewLayout (1.2.5)
+  - BSImagePicker (2.10.3):
+    - BSGridCollectionViewLayout (= 1.2.5)
+    - BSImageView (= 1.0.3)
+  - BSImageView (1.0.3)
+  - connectivity (0.0.1):
+    - Flutter
+    - Reachability
+  - core_location_fluttify (0.0.1):
+    - Flutter
+    - foundation_fluttify
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - amap_core_fluttify
+    - amap_location_fluttify
+    - amap_map_fluttify
+    - amap_search_fluttify
+    - connectivity
+    - core_location_fluttify
+    - Flutter
+    - foundation_fluttify
+    - image_gallery_saver
+    - image_picker
+    - multi_image_picker
+    - package_info
+    - path_provider
+    - permission_handler
+    - shared_preferences
+    - sqflite
+    - url_launcher
+    - webview_flutter
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - foundation_fluttify (0.0.1):
+    - Flutter
+  - image_gallery_saver (1.5.0):
+    - Flutter
+  - image_picker (0.0.1):
+    - Flutter
+  - multi_image_picker (4.7.15):
+    - BSImagePicker (~> 2.10.3)
+    - Flutter
+  - package_info (0.0.1):
+    - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - "permission_handler (4.4.0+hotfix.4)":
+    - Flutter
+  - Reachability (3.2)
+  - shared_preferences (0.0.1):
+    - Flutter
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - url_launcher (0.0.1):
+    - Flutter
+  - webview_flutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - amap_core_fluttify (from `Flutter/.symlinks/amap_core_fluttify/ios`)
+  - amap_location_fluttify (from `Flutter/.symlinks/amap_location_fluttify/ios`)
+  - amap_map_fluttify (from `Flutter/.symlinks/amap_map_fluttify/ios`)
+  - amap_search_fluttify (from `Flutter/.symlinks/amap_search_fluttify/ios`)
+  - connectivity (from `Flutter/.symlinks/connectivity/ios`)
+  - core_location_fluttify (from `Flutter/.symlinks/core_location_fluttify/ios`)
+  - Flutter (from `Flutter/engine`)
+  - FlutterPluginRegistrant (from `Flutter/FlutterPluginRegistrant`)
+  - foundation_fluttify (from `Flutter/.symlinks/foundation_fluttify/ios`)
+  - image_gallery_saver (from `Flutter/.symlinks/image_gallery_saver/ios`)
+  - image_picker (from `Flutter/.symlinks/image_picker/ios`)
+  - multi_image_picker (from `Flutter/.symlinks/multi_image_picker/ios`)
+  - package_info (from `Flutter/.symlinks/package_info/ios`)
+  - path_provider (from `Flutter/.symlinks/path_provider/ios`)
+  - permission_handler (from `Flutter/.symlinks/permission_handler/ios`)
+  - shared_preferences (from `Flutter/.symlinks/shared_preferences/ios`)
+  - sqflite (from `Flutter/.symlinks/sqflite/ios`)
+  - url_launcher (from `Flutter/.symlinks/url_launcher/ios`)
+  - webview_flutter (from `Flutter/.symlinks/webview_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AMap3DMap-NO-IDFA
+    - AMapFoundation-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - AMapSearch-NO-IDFA
+    - BSGridCollectionViewLayout
+    - BSImagePicker
+    - BSImageView
+    - FMDB
+    - Reachability
+
+EXTERNAL SOURCES:
+  amap_core_fluttify:
+    :path: Flutter/.symlinks/amap_core_fluttify/ios
+  amap_location_fluttify:
+    :path: Flutter/.symlinks/amap_location_fluttify/ios
+  amap_map_fluttify:
+    :path: Flutter/.symlinks/amap_map_fluttify/ios
+  amap_search_fluttify:
+    :path: Flutter/.symlinks/amap_search_fluttify/ios
+  connectivity:
+    :path: Flutter/.symlinks/connectivity/ios
+  core_location_fluttify:
+    :path: Flutter/.symlinks/core_location_fluttify/ios
+  Flutter:
+    :path: Flutter/engine
+  FlutterPluginRegistrant:
+    :path: Flutter/FlutterPluginRegistrant
+  foundation_fluttify:
+    :path: Flutter/.symlinks/foundation_fluttify/ios
+  image_gallery_saver:
+    :path: Flutter/.symlinks/image_gallery_saver/ios
+  image_picker:
+    :path: Flutter/.symlinks/image_picker/ios
+  multi_image_picker:
+    :path: Flutter/.symlinks/multi_image_picker/ios
+  package_info:
+    :path: Flutter/.symlinks/package_info/ios
+  path_provider:
+    :path: Flutter/.symlinks/path_provider/ios
+  permission_handler:
+    :path: Flutter/.symlinks/permission_handler/ios
+  shared_preferences:
+    :path: Flutter/.symlinks/shared_preferences/ios
+  sqflite:
+    :path: Flutter/.symlinks/sqflite/ios
+  url_launcher:
+    :path: Flutter/.symlinks/url_launcher/ios
+  webview_flutter:
+    :path: Flutter/.symlinks/webview_flutter/ios
+
+SPEC CHECKSUMS:
+  AMap3DMap-NO-IDFA: 5e5b483ef230d1bed6c8d989d36254a66c67a6fc
+  amap_core_fluttify: 9e5af179f8151193fa1c9a420bcbcbf2701f648c
+  amap_location_fluttify: baa3007e3f215456ab2ea2f4ccccf5bc1a9a164b
+  amap_map_fluttify: 6b64256d6ccea7813e1b6423fcf7b5ef10d3c984
+  amap_search_fluttify: 874f1e9cf85df4fb95547d07df54d1c5d6b9c1d2
+  AMapFoundation-NO-IDFA: 68a24362b110b8e0a3677605d0fd36bdf521f2bb
+  AMapLocation-NO-IDFA: 2a3edfee336b38481b892e1ecc85df0f6b365851
+  AMapSearch-NO-IDFA: 061479dd567486fb59bf3d01b1076c81d910f1b6
+  BSGridCollectionViewLayout: 333dcb457a5a3bdd9212607ab5756553dcfe06cb
+  BSImagePicker: 07404254f2fcdaf5a2eb403c0f8c337267ce8738
+  BSImageView: a149459433a2687157d034c78e059d30ac7f2544
+  connectivity: c4130b2985d4ef6fd26f9702e886bd5260681467
+  core_location_fluttify: 9466a411ea7d22c6349c7e6a767ae4623f01eb1d
+  Flutter: 446b87ace8a3747a167979213b4aef59a0b5e5fa
+  FlutterPluginRegistrant: b5b91a2680dd46ce4f63d5f7318df4971a96fd89
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  foundation_fluttify: 0c45145e3fad1fb99188e4979daed5b24cd9b278
+  image_gallery_saver: 259eab68fb271cfd57d599904f7acdc7832e7ef2
+  image_picker: e3eacd46b94694dde7cf2705955cece853aa1a8f
+  multi_image_picker: 58577ab96d99b35c82d626db7d81906d14c2b667
+  package_info: 873975fc26034f0b863a300ad47e7f1ac6c7ec62
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  permission_handler: 8278954f2382902f63f00dd8828769c0bd6d511b
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  shared_preferences: af6bfa751691cdc24be3045c43ec037377ada40d
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  url_launcher: 6fef411d543ceb26efce54b05a0a40bfd74cbbef
+  webview_flutter: d2b4d6c66968ad042ad94cbb791f5b72b4678a96
+
+PODFILE CHECKSUM: 0b2f74c1840acb873dadb7c2159f5f6bd52b586c
+
+COCOAPODS: 1.10.0
